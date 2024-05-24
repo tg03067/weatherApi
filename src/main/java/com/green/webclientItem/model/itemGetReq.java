@@ -1,0 +1,10 @@
+package com.green.webclientItem.model;
+
+import io.swagger.v3.oas.annotations.media.Schema;
+import lombok.Data;
+
+@Data
+public class itemGetReq {
+    @Schema(defaultValue = "json")
+    private String type;
+}

@@ -1,0 +1,28 @@
+springdoc:
+  swagger-ui:
+    path: /swagger
+    operations-sorter: method
+    default-model-expand-depth: 10
+    display-request-duration: true
+  api-docs:
+    version: openapi_3_1
+
+  cache:
+    disabled: true
+spring:
+  application:
+    name: GreengramVer2
+  datasource:
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:mariadb://localhost:3306/itemlist
+    username: root
+    password: green502
+  servlet:
+    multipart:
+      max-file-size: 5MB
+mybatis:
+  mapper-locations: mappers/**/*.xml
+
+
+properties:
+  key: NVXd2tdFPAzBJkGaLCY%2BTBcb95hBvJVmDxIw5qrsCw8%2F%2FjDVG31xuUrJk9r3Kxry%2BYMFKGmwds35bQ4%2FlD9nbA%3D%3D

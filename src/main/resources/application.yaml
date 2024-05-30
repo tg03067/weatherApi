@@ -11,10 +11,10 @@ springdoc:
     disabled: true
 spring:
   application:
-    name: GreengramVer2
+    name: WebClientTestInfo
   datasource:
     driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-    url: jdbc:log4jdbc:mariadb://localhost:3306/itemlist
+    url: jdbc:log4jdbc:mariadb://localhost:3306/
     username: root
     password: green502
   servlet:
